@@ -1,0 +1,71 @@
+.placesContener{
+    min-height: 70vh;
+    width: 100%;
+    margin: 0;
+
+    .design1_div{
+        padding-top: 20px;
+        width: 100%;
+        height: 100vh;
+        border-bottom: 4px dashed var(--color4);
+       
+        background-position: center;
+        background-size: cover;
+
+        .blockTxt{
+           min-width: 40vh;
+           height: 30vh;
+           background-color: var(--color2);
+           padding: 20px;
+           margin: 20vh 5vh auto ;
+           text-align: center;
+           overflow-y: scroll;
+           color: var(--color1);
+
+            box-shadow:  19px 19px 0px var(--color3),
+             -19px -19px 0px var(--color4);
+
+        }
+    }
+    .img_src1{
+        background-image: url("../img/polska-walczaca-znak-kotwica-12.jpg");
+    }
+
+
+
+
+    .design2_div{
+        padding-top: 20px;
+        width: 100%;
+        height: 100vh;
+        border-bottom: 4px dashed var(--color2);
+       
+        background-position: center;
+        background-size: cover;
+
+        .blockTxt{
+           min-width: 40vh;
+           height: 30vh;
+           background-color: var(--opacityColor);
+           padding: 20px;
+           margin: 20vh 5vh auto ;
+           text-align: center;
+           overflow-y: scroll;
+           color: white;
+
+            box-shadow:  19px 19px 0px var(--color2),
+             -19px -19px 0px var(--color3);
+
+        }
+    }
+    .img_src2{
+        background-image: url("../img/powsatnie_warszawskie_header.jpg");
+    }
+
+}
+
+@media(max-width: 723px){
+    .blockTxt{
+        scale: 0.9 !important;
+    }
+}

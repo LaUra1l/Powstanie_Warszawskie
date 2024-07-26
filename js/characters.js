@@ -1,0 +1,1 @@
+new Navigation(`.date_1_btn`,`.charactersContener`,'click');
