@@ -21,6 +21,7 @@ html{
     margin: 0;
     padding: 0;
     transition: all 1s;
+    box-sizing: border-box;
 
     &::selection{
         background-color: var(--opacityColor);
@@ -32,7 +33,7 @@ body{
     font-optical-sizing: auto;
     font-weight: 300;
     font-style: normal;
-    box-sizing: border-box;
+
 }
 .logo{
     background-image: url("https://www.jacekbernatek.com/wp-content/uploads/2020/11/polska-walczaca-znak-kotwica-12.jpg");
@@ -206,7 +207,7 @@ a:hover{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    letter-spacing: 2px;
+    letter-spacing: 1px;
 
     padding: 0 2px;
     background-color: var(--opacityColor);
