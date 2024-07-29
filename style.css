@@ -106,9 +106,7 @@ main{
         border-radius: 50%;
         
     }
-    a{
-
-    }
+   
     .schoolIcon{
         font-size: 1.9rem;
         margin: 0;
@@ -192,7 +190,7 @@ a{
     color: var(--color2);
 }
 a:hover{
-    color: var(--color4)
+    color: var(--color1)
 }
 
 .navbar:hover{
