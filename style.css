@@ -478,7 +478,6 @@ section{
                 background-color: var(--color2);
                 cursor: pointer;
                 color: var(--color1);
-                overflow-x: scroll;
 
                 .title_3{
                     margin: 0;
