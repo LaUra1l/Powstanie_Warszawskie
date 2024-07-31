@@ -76,7 +76,7 @@ main{
     min-height: 100%;
     position: fixed;
     background-color: var(--opacityColor);
-    left:22px ;
+    left:20px ;
     z-index: 3;
 }
 .navIconDiv{
@@ -106,7 +106,9 @@ main{
         border-radius: 50%;
         
     }
-   
+    a{
+
+    }
     .schoolIcon{
         font-size: 1.9rem;
         margin: 0;
@@ -424,7 +426,7 @@ section{
             display: flex;
             flex-direction:column;
             color: var(--color2);
-            padding:130px 45px;
+            padding: 130px 45px;
             margin: 30px 0 0 0;
             border-top: 20px solid var(--color3);
 
@@ -479,6 +481,7 @@ section{
                 background-color: var(--color2);
                 cursor: pointer;
                 color: var(--color1);
+                overflow-x: scroll;
 
                 .title_3{
                     margin: 0;
@@ -1164,7 +1167,7 @@ section{
 
 .dateTxt{
     height: 40px;
-    width:200px;
+    min-width:300px;
     padding: 0 60px 0 10px ;
     background-color: var(--color3);
     color: var(--color2);
